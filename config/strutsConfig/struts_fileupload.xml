@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+    <package name="fileUpload" namespace="/jbxx/fileUpload" extends="json-default,struts-default">
+
+        <action name="upload" class="fileUploadAction" method="upload">
+            <result name="success">success.jsp</result>
+            <interceptor-ref name="fileUpload">
+                <param name="fileUpload.allowedTypes">
+                    text/plain,application/vnd.ms-powerpoint,image/gif,image/jpeg,image.bmp,application/msword
+                </param>
+            </interceptor-ref>
+            <interceptor-ref name="defaultStack"/>
+            <result name="error">error.jsp</result>
+        </action>
+
+        <action name="progress" class="com.yg.zero.fileUpload.action.FileUploadAction" method="progress">
+            <result name="success" type="json">
+                <param name="root">result</param>
+            </result>
+            <result name="error" type="json">
+                <param name="root">result</param>
+            </result>
+        </action>
+        <action name="isUpload" class="com.yg.zero.fileUpload.action.FileUploadAction" method="isUpload">
+            <result name="success" type="json">
+                <param name="root">result</param>
+            </result>
+            <result name="error" type="json">
+                <param name="root">result</param>
+            </result>
+        </action>
+
+        <action name="clearProgressSession" class="com.yg.zero.fileUpload.action.FileUploadAction" method="clearProgressSession">
+        </action>
+
+        <action name="checkChunk" class="com.yg.zero.fileUpload.action.FileUploadAction" method="checkChunk">
+            <result name="success" type="json">
+                <param name="root">result</param>
+            </result>
+            <result name="error" type="json">
+                <param name="root">result</param>
+            </result>
+        </action>
+
+        <action name="mergeChunks" class="com.yg.zero.fileUpload.action.FileUploadAction" method="mergeChunks">
+            <result name="success" type="json">
+                <param name="root">result</param>
+            </result>
+        </action>
+
+        <action name="uploadChunk" class="com.yg.zero.fileUpload.action.FileUploadAction" method="uploadChunk">
+
+        </action>
+    </package>
+</struts>
