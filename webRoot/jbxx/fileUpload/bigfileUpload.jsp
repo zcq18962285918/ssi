@@ -98,7 +98,11 @@
                 async: false,
                 dataType: 'json',
                 success: function (response) {
-                    if (response.ifExist) {
+                    console.info(response.success);
+                    if (1 === response.success){
+                        alert("文件秒传了!");
+                    }
+                    else if (response.ifExist) {
                         //分块存在，跳过
                         deferred.reject();
                     } else {
@@ -122,7 +126,8 @@
                 url: 'mergeChunks.action',
                 data: {
                     fileName: fileName,
-                    fileMd5: filesArr[count]
+                    fileMd5: filesArr[count],
+                    fileSize: fileSize
                 },
                 cache: false,
                 async: false,
@@ -213,7 +218,7 @@
         //var retrybutton = $('#' + file.id).find(".btn-retry");
         //$('#' + file.id)
         if ($('#' + file.id).find(".btn-retry").length < 1) {
-            var btn = $('<button type="button" fileid="' + file.id + '" class="btn btn-success btn-retry"><span class="glyphicon glyphicon-refresh"></span></button>');
+            var btn = $('<button type="button" fileid="' + file.id + '" class="btn btn-success btn-retry"><span class="glyphicon glyphicon-refresh">重新上传</span></button>');
             $('#' + file.id).find(".info").append(btn);//.find(".btn-danger")
         }
         $(".btn-retry").click(function () {

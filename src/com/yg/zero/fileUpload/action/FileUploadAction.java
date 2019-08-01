@@ -108,11 +108,11 @@ public class FileUploadAction extends ActionSupport {
         File[] listFiles = saveFile.listFiles();
         if (listFiles != null) {
             for (File file1 : listFiles) {
-                if (file1.length() == size && !file1.isDirectory()) {
+                 if (file1.length() == size && !file1.isDirectory()) {
                     String name = file1.getName();
                     String type = name.substring(name.lastIndexOf('.') + 1);
                     if (type.equals(fileType)) {
-                        result.put("success", "文件秒传了!");
+                        result.put("success", "1");
                         return "success";
                     }
                 }
@@ -139,13 +139,22 @@ public class FileUploadAction extends ActionSupport {
         HttpServletRequest request = ServletActionContext.getRequest();
         String fileName = request.getParameter("fileName");
         String filemd5 = request.getParameter("fileMd5");
+        long size = Long.parseLong(request.getParameter("fileSize"));
         String path = ServletActionContext.getServletContext().getRealPath("/WEB-INF/upload");
         String chunksFilePath = path + File.separator + filemd5; //分片文件夹路径
         File mergeFile = new File(chunksFilePath + File.separator + fileName); //合并后的文件
         if (mergeFile.exists() && !mergeFile.isDirectory())
             if (!mergeFile.delete())
                 System.out.println("删除旧文件失败");
-
+        if (size <= 10 * 1024 * 1024){
+            File file  = new File(chunksFilePath);
+            File[] files = file.listFiles();
+            if (files == null && files.length >= 2){
+                return "error";
+            }
+            files[0].renameTo(mergeFile);
+            return "success";
+        }
         //分片文件排序后合并
         File chunksFileDirectory = new File(chunksFilePath);
         File[] files = chunksFileDirectory.listFiles();
@@ -171,7 +180,7 @@ public class FileUploadAction extends ActionSupport {
                 for (File file : fileList) {
                     inChannel = new FileInputStream(file).getChannel();
                     inChannel.transferTo(0, inChannel.size(), outChannel);
-                    file.delete();
+                    //file.delete();
                 }
             } catch (IOException e) {
                 e.printStackTrace();
