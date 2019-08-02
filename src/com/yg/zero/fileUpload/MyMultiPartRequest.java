@@ -6,7 +6,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 
 /**
- * struts配置
+ * struts配置,需要在struts.xml里配置才会生效
  */
 public class MyMultiPartRequest extends JakartaMultiPartRequest {
     @Override

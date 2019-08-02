@@ -75,6 +75,9 @@ public class FileUploadAction extends ActionSupport {
         return "success";
     }
 
+    /**
+     * 分片上传等价于一个小文件的上传
+     */
     public void uploadChunk() {
         result = new JSONObject();
         HttpServletRequest request = ServletActionContext.getRequest();
@@ -83,48 +86,63 @@ public class FileUploadAction extends ActionSupport {
     }
 
     /**
-     * 分片上传之前的效检
+     * 文件上传之前的效检，存在文件则为秒传
      */
-    public String checkChunk() {
+    public String checkFile() {
         result = new JSONObject();
         HttpServletRequest request = ServletActionContext.getRequest();
         String fileName = request.getParameter("fileName");
         long size = Long.parseLong(request.getParameter("fileSize"));
         String fileMd5 = request.getParameter("fileMd5");
-        int index = Integer.parseInt(request.getParameter("chunk"));
-        long chunkSize = Long.parseLong(request.getParameter("chunkSize"));
         String fileType = fileName.substring(fileName.lastIndexOf(".") + 1);
         String path = ServletActionContext.getServletContext().getRealPath("/WEB-INF/upload");
-        //保存文件夹以文件MD5命名
         String savePath = path + File.separator + fileMd5;
         File saveFile = new File(savePath);
+
+        //保存文件夹以文件MD5命名
         if (!saveFile.exists() && !saveFile.isDirectory()) {
             if (!saveFile.mkdirs()) {
-                result.put("error", "创建保存文件夹失败");
-                return "error";
+                System.out.println("创建保存文件夹失败");
             }
         }
+
         //判断文件是否已存在，不使用文件名判断而是以文件大小和后缀名来进行判断
         File[] listFiles = saveFile.listFiles();
         if (listFiles != null) {
             for (File file1 : listFiles) {
-                 if (file1.length() == size && !file1.isDirectory()) {
+                if (file1.length() == size && !file1.isDirectory()) {
                     String name = file1.getName();
                     String type = name.substring(name.lastIndexOf('.') + 1);
                     if (type.equals(fileType)) {
-                        result.put("success", "1");
+                        result.put("isWhole", true);
                         return "success";
                     }
                 }
             }
+        }
 
-            //分片是否完整存在
-            File chunkFile = new File(savePath + File.separator + index);
-            if (chunkFile.exists() && !chunkFile.isDirectory())
-                if (chunkFile.length() == chunkSize) {
-                    result.put("ifExist", true);
-                    return "success";
-                }
+        return "success";
+    }
+
+    /**
+     * 分片上传之前的效检
+     */
+    public String checkChunk() {
+        result = new JSONObject();
+        HttpServletRequest request = ServletActionContext.getRequest();
+        String fileMd5 = request.getParameter("fileMd5");
+        int index = Integer.parseInt(request.getParameter("chunk"));
+        long chunkSize = Long.parseLong(request.getParameter("chunkSize"));
+        String path = ServletActionContext.getServletContext().getRealPath("/WEB-INF/upload");
+        String savePath = path + File.separator + fileMd5;
+
+        //分片是否完整存在
+        File chunkFile = new File(savePath + File.separator + index);
+        if (chunkFile.exists() && !chunkFile.isDirectory()) {
+            if (chunkFile.length() == chunkSize) {
+                result.put("ifExist", true);
+                return "success";
+            }
         }
         result.put("ifExist", false);
         return "success";
@@ -143,13 +161,19 @@ public class FileUploadAction extends ActionSupport {
         String path = ServletActionContext.getServletContext().getRealPath("/WEB-INF/upload");
         String chunksFilePath = path + File.separator + filemd5; //分片文件夹路径
         File mergeFile = new File(chunksFilePath + File.separator + fileName); //合并后的文件
+        //文件是否存在，简单的长度判断即可
+        if (size == mergeFile.length()) {
+            return "success";
+        }
+        //残缺文件的删除
         if (mergeFile.exists() && !mergeFile.isDirectory())
             if (!mergeFile.delete())
                 System.out.println("删除旧文件失败");
-        if (size <= 10 * 1024 * 1024){
-            File file  = new File(chunksFilePath);
+        //小于分块大小的文件直接重命名
+        if (size <= 10 * 1024 * 1024) {
+            File file = new File(chunksFilePath);
             File[] files = file.listFiles();
-            if (files == null && files.length >= 2){
+            if (files == null && files.length > 2) {
                 return "error";
             }
             files[0].renameTo(mergeFile);

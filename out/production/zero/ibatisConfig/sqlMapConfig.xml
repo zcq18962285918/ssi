@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMapConfig
+        PUBLIC "-//ibatis.apache.org//DTD SQL Map Config 2.0//EN"
+        "http://ibatis.apache.org/dtd/sql-map-config-2.dtd">
+<sqlMapConfig>
+    <!--
+    cacheModelsEnabled  缺省值：true（启用） 
+
+    是否启动ibatis中的缓存功能。
+
+
+    enhancementEnabled 缺省值：true（启用） 
+
+    是否需要POJO启动Java字节码增强功能，可以提升getter/setter的调用效能避免Java反射所带来的性能开销。
+
+
+    lazyLoadingEnabled 缺省值：false（禁用） 
+
+    是否同时Lazy Loading带来极大的性能提升。
+
+
+    useStatementNamespaces 缺省值：false（禁用）
+
+    是否使用 domain xml 文件中 namespace 别名配置。
+
+    errorTracingEnabled="true"  开发结束后设置为false 错误日志
+
+
+    maxRequests
+
+    最大并发请求数(Statemetn数)。
+
+
+    maxTransactions
+
+    最大并发事务数
+
+
+    maxSessions
+
+    最大Session数，当前最大允许的并发 SqlMapCliect数
+
+
+    maxSessions
+
+    须界于 maxTransactions和maxRequests之间进行配置
+     -->
+    <settings
+            cacheModelsEnabled="true"
+
+            enhancementEnabled="true"
+
+            lazyLoadingEnabled="false"
+
+            errorTracingEnabled="false"
+
+            maxRequests="2048"
+
+            maxSessions="1024"
+
+            maxTransactions="512"
+
+            useStatementNamespaces="true"
+    />
+
+    <sqlMap resource="ibatisConfig/bmgl.xml"/>
+    <sqlMap resource="ibatisConfig/fileUpload.xml"/>
+
+</sqlMapConfig>

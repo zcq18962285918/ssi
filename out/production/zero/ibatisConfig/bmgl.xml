@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap
+        PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN"
+        "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+<sqlMap namespace="Bmgl">
+    <typeAlias alias="bmgl" type="com.yg.zero.bmgl.pojo.Bmgl"/>
+    <select id="doQueryBmxx" parameterClass="bmgl" resultClass="bmgl">
+			   SELECT
+			    bm.bmbm_pk ,bm.bmmc  ,
+		  		nvl(bm.sjbmbm_pk,-1) as sjbmbm_pk ,
+		  		bm.bmbh ,bm.bmjb ,bm.sfzy , nvl(bm.cjbh,0) cjbh ,bm.sfsyb ,bm.fgsbm_pk ,
+				bm.bmspjb,bm.sflxbm ,bm.sfcjdw
+			    from pms_pub_bmxxb bm
+			     where bm.yxbz=1 and bm.sfzy=1
+    </select>
+</sqlMap>

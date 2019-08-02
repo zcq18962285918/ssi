@@ -1,0 +1,34 @@
+
+为管理业务培训信息，建立3个表：
+
+     S(S#,SN,SD,SA)S#,SN,SD,SA分别代表学号，学员姓名，所属单位，学员年龄
+
+     C(C#,CN)C#,CN分别代表课程编号，课程名称
+
+      SC(S#,C#,G) S#,C#,G分别代表学号，所选的课程编号，学习成绩
+
+    （1）使用标准SQL嵌套语句查询选修课程名称为’税收基础’的学员学号和姓名?
+
+          答案：select s# ,sn from s where S# in(select S# from c,sc where c.c#=sc.c# and cn=’税收基础’)
+
+      (2) 使用标准SQL嵌套语句查询选修课程编号为’C2’的学员姓名和所属单位?
+
+答：select sn,sd from s,sc where s.s#=sc.s# and sc.c#=’c2’
+
+      (3) 使用标准SQL嵌套语句查询不选修课程编号为’C5’的学员姓名和所属单位?
+
+答：select sn,sd from s where s# not in(select s# from sc where c#=’c5’)
+
+       (4)查询选修了课程的学员人数
+
+答：select 学员人数=count(distinct s#) from sc
+
+       (5) 查询选修课程超过5门的学员学号和所属单位?
+
+答：select sn,sd from s where s# in(select s# from sc group by s# having count(distinct c#)>5)
+
+
+
+
+
+

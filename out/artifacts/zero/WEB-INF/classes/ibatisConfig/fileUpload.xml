@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap
+        PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN"
+        "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+<sqlMap namespace="fileUpload">
+    <typeAlias alias="file" type="com.yg.zero.fileUpload.pojo.Files"/>
+
+    <insert id="addFile" parameterClass="file">
+        <![CDATA[
+        insert into zcq_file
+        (id,filename,filepath,savetime,filesize)
+        values
+        (#id#,#fileName#,#filePath#,,#saveTime#,#fileSize#)
+        ]]>
+    </insert>
+    <select id="queryByMD5" parameterClass="String" resultClass="file">
+
+    </select>
+</sqlMap>

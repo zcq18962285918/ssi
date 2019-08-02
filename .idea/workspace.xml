@@ -7,105 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e95b2f70-916e-4b3a-bf8b-c725b3e74c36" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/WEB-INF/classes/ibatisConfig/bmgl.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/WEB-INF/classes/ibatisConfig/fileUpload.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/WEB-INF/classes/ibatisConfig/sqlMapConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/WEB-INF/classes/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/WEB-INF/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/WEB-INF/classes/springConfig/applicationContext-action.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/WEB-INF/classes/springConfig/applicationContext-commontes1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/WEB-INF/classes/springConfig/applicationContext-commontest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/WEB-INF/classes/springConfig/applicationContext-dao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/WEB-INF/classes/springConfig/applicationContext-services.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/WEB-INF/classes/struts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/WEB-INF/classes/strutsConfig/struts_bmgl.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/WEB-INF/classes/strutsConfig/struts_fileupload.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/WEB-INF/upload/19c2ad00ec692bba2a8952e066d9a97f/0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/WEB-INF/upload/19c2ad00ec692bba2a8952e066d9a97f/1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/WEB-INF/upload/19c2ad00ec692bba2a8952e066d9a97f/10" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/WEB-INF/upload/19c2ad00ec692bba2a8952e066d9a97f/11" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/WEB-INF/upload/19c2ad00ec692bba2a8952e066d9a97f/12" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/WEB-INF/upload/19c2ad00ec692bba2a8952e066d9a97f/13" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/WEB-INF/upload/19c2ad00ec692bba2a8952e066d9a97f/14" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/WEB-INF/upload/19c2ad00ec692bba2a8952e066d9a97f/15" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/WEB-INF/upload/19c2ad00ec692bba2a8952e066d9a97f/16" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/WEB-INF/upload/19c2ad00ec692bba2a8952e066d9a97f/17" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/WEB-INF/upload/19c2ad00ec692bba2a8952e066d9a97f/18" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/WEB-INF/upload/19c2ad00ec692bba2a8952e066d9a97f/19" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/WEB-INF/upload/19c2ad00ec692bba2a8952e066d9a97f/2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/WEB-INF/upload/19c2ad00ec692bba2a8952e066d9a97f/3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/WEB-INF/upload/19c2ad00ec692bba2a8952e066d9a97f/4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/WEB-INF/upload/19c2ad00ec692bba2a8952e066d9a97f/5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/WEB-INF/upload/19c2ad00ec692bba2a8952e066d9a97f/6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/WEB-INF/upload/19c2ad00ec692bba2a8952e066d9a97f/7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/WEB-INF/upload/19c2ad00ec692bba2a8952e066d9a97f/8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/WEB-INF/upload/19c2ad00ec692bba2a8952e066d9a97f/9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/WEB-INF/upload/bf7dd5bf7866d3ac8637df22b56e974e/2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/WEB-INF/upload/temp/upload_ade0d50c_a463_4469_bbeb_b14d0995ae21_00000009.tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/WEB-INF/upload/temp/upload_ade0d50c_a463_4469_bbeb_b14d0995ae21_00000019.tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/WEB-INF/upload/temp/upload_ade0d50c_a463_4469_bbeb_b14d0995ae21_00000029.tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/WEB-INF/upload/temp/upload_ade0d50c_a463_4469_bbeb_b14d0995ae21_00000039.tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/WEB-INF/upload/temp/upload_ade0d50c_a463_4469_bbeb_b14d0995ae21_00000049.tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/WEB-INF/upload/temp/upload_ade0d50c_a463_4469_bbeb_b14d0995ae21_00000059.tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/WEB-INF/upload/temp/upload_ade0d50c_a463_4469_bbeb_b14d0995ae21_00000069.tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/WEB-INF/upload/temp/upload_ade0d50c_a463_4469_bbeb_b14d0995ae21_00000079.tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/WEB-INF/upload/temp/upload_ade0d50c_a463_4469_bbeb_b14d0995ae21_00000089.tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/WEB-INF/upload/temp/upload_ade0d50c_a463_4469_bbeb_b14d0995ae21_00000099.tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/WEB-INF/upload/temp/upload_ade0d50c_a463_4469_bbeb_b14d0995ae21_00000109.tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/WEB-INF/upload/temp/upload_ade0d50c_a463_4469_bbeb_b14d0995ae21_00000119.tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/WEB-INF/upload/temp/upload_ade0d50c_a463_4469_bbeb_b14d0995ae21_00000129.tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/WEB-INF/upload/temp/upload_ade0d50c_a463_4469_bbeb_b14d0995ae21_00000139.tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/WEB-INF/upload/temp/upload_ade0d50c_a463_4469_bbeb_b14d0995ae21_00000149.tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/WEB-INF/upload/temp/upload_ade0d50c_a463_4469_bbeb_b14d0995ae21_00000159.tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/WEB-INF/upload/temp/upload_ade0d50c_a463_4469_bbeb_b14d0995ae21_00000169.tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/WEB-INF/upload/temp/upload_ade0d50c_a463_4469_bbeb_b14d0995ae21_00000179.tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/jbxx/bmgl/bmgl.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/jbxx/bmgl/error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/jbxx/bmgl/excel.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/jbxx/fileUpload/bigfileUpload.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/jbxx/fileUpload/download.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/jbxx/fileUpload/error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/jbxx/fileUpload/minupload.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/jbxx/fileUpload/success.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/jquery-3.4.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/vue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/vues/firstvue.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/webuploader-0.1.5/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/webuploader-0.1.5/Uploader.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/webuploader-0.1.5/webuploader.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/webuploader-0.1.5/webuploader.custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/webuploader-0.1.5/webuploader.custom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/webuploader-0.1.5/webuploader.fis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/webuploader-0.1.5/webuploader.flashonly.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/webuploader-0.1.5/webuploader.flashonly.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/webuploader-0.1.5/webuploader.html5only.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/webuploader-0.1.5/webuploader.html5only.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/webuploader-0.1.5/webuploader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/webuploader-0.1.5/webuploader.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/webuploader-0.1.5/webuploader.noimage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/webuploader-0.1.5/webuploader.noimage.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/webuploader-0.1.5/webuploader.nolog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/webuploader-0.1.5/webuploader.nolog.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/webuploader-0.1.5/webuploader.withoutimage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/zero/webuploader-0.1.5/webuploader.withoutimage.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/zero/ibatisConfig/bmgl.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/zero/ibatisConfig/fileUpload.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/zero/ibatisConfig/sqlMapConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/zero/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/zero/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/zero/springConfig/applicationContext-action.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/zero/springConfig/applicationContext-commontes1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/zero/springConfig/applicationContext-commontest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/zero/springConfig/applicationContext-dao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/zero/springConfig/applicationContext-services.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/zero/struts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/zero/strutsConfig/struts_bmgl.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/zero/strutsConfig/struts_fileupload.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/strutsConfig/struts_fileupload.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config/strutsConfig/struts_fileupload.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yg/zero/fileUpload/MyMultiPartRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yg/zero/fileUpload/MyMultiPartRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/yg/zero/fileUpload/action/FileUploadAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yg/zero/fileUpload/action/FileUploadAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yg/zero/ftpFileUpload/BigFilesUpload.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webRoot/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webRoot/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webRoot/jbxx/bmgl/bmgl.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webRoot/jbxx/bmgl/bmgl.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webRoot/jbxx/bmgl/excel.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webRoot/jbxx/bmgl/excel.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webRoot/jbxx/fileUpload/bigfileUpload.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webRoot/jbxx/fileUpload/bigfileUpload.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -137,7 +46,42 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="bigfileUpload.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webRoot/jbxx/fileUpload/bigfileUpload.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="227" lean-forward="true" selection-start-line="227" selection-end-line="227" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileUploadAction.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/yg/zero/fileUpload/action/FileUploadAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="177" column="13" lean-forward="true" selection-start-line="175" selection-start-column="12" selection-end-line="177" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#upload#0;class#FileUploadAction#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UploadProcessLister.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yg/zero/fileUpload/UploadProcessLister.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -198,8 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/yg/zero/fileUpload/blockUpload/UploadFileInfoBean.java" />
-        <option value="$PROJECT_DIR$/config/ibatisConfig/fielUpload.xml" />
         <option value="$PROJECT_DIR$/config/ibatisConfig/sqlMapConfig.xml" />
         <option value="$PROJECT_DIR$/src/com/yg/zero/fileUpload/blockUpload/UploadFileSplitterFetch.java" />
         <option value="$PROJECT_DIR$/src/com/yg/zero/fileUpload/blockUpload/UploadFileFetch.java" />
@@ -225,7 +167,6 @@
         <option value="$PROJECT_DIR$/config/springConfig/applicationContext-commontes1.xml" />
         <option value="$PROJECT_DIR$/config/ibatisConfig/bmgl.xml" />
         <option value="$PROJECT_DIR$/config/jdbc.properties" />
-        <option value="$PROJECT_DIR$/webRoot/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/com/yg/zero/fileUpload/FileUploadOrDown/blockUpload/MinFileUpload.java" />
         <option value="$PROJECT_DIR$/webRoot/jbxx/fileUpload/fileUpload.jsp" />
         <option value="$PROJECT_DIR$/webRoot/jbxx/fileUpload/upload.jsp" />
@@ -244,11 +185,14 @@
         <option value="$PROJECT_DIR$/webRoot/index.jsp" />
         <option value="$PROJECT_DIR$/src/com/yg/zero/ftpFileUpload/LargeFilesUpload.java" />
         <option value="$PROJECT_DIR$/src/com/yg/zero/ftpFileUpload/BigFilesUpload.java" />
-        <option value="$PROJECT_DIR$/config/strutsConfig/struts_fileupload.xml" />
-        <option value="$PROJECT_DIR$/src/com/yg/zero/fileUpload/MyMultiPartRequest.java" />
         <option value="$PROJECT_DIR$/src/com/yg/zero/httpFileUpload/SmallFileUpload.java" />
-        <option value="$PROJECT_DIR$/src/com/yg/zero/fileUpload/action/FileUploadAction.java" />
+        <option value="$PROJECT_DIR$/webRoot/jbxx/bmgl/excel.jsp" />
+        <option value="$PROJECT_DIR$/webRoot/jbxx/bmgl/bmgl.jsp" />
+        <option value="$PROJECT_DIR$/src/com/yg/zero/fileUpload/MyMultiPartRequest.java" />
+        <option value="$PROJECT_DIR$/webRoot/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/webRoot/jbxx/fileUpload/bigfileUpload.jsp" />
+        <option value="$PROJECT_DIR$/config/strutsConfig/struts_fileupload.xml" />
+        <option value="$PROJECT_DIR$/src/com/yg/zero/fileUpload/action/FileUploadAction.java" />
       </list>
     </option>
   </component>
@@ -295,8 +239,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -373,57 +317,6 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="yg" type="462c0819:PsiDirectoryNode" />
               <item name="zero" type="462c0819:PsiDirectoryNode" />
-              <item name="fileUpload" type="462c0819:PsiDirectoryNode" />
-              <item name="FileUploadOrDown" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zero" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zero" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yg" type="462c0819:PsiDirectoryNode" />
-              <item name="zero" type="462c0819:PsiDirectoryNode" />
-              <item name="fileUpload" type="462c0819:PsiDirectoryNode" />
-              <item name="FileUploadOrDown" type="462c0819:PsiDirectoryNode" />
-              <item name="blockDownLoad" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zero" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zero" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yg" type="462c0819:PsiDirectoryNode" />
-              <item name="zero" type="462c0819:PsiDirectoryNode" />
-              <item name="fileUpload" type="462c0819:PsiDirectoryNode" />
-              <item name="FileUploadOrDown" type="462c0819:PsiDirectoryNode" />
-              <item name="blockUpload" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zero" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zero" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yg" type="462c0819:PsiDirectoryNode" />
-              <item name="zero" type="462c0819:PsiDirectoryNode" />
-              <item name="fileUpload" type="462c0819:PsiDirectoryNode" />
-              <item name="simulate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zero" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zero" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yg" type="462c0819:PsiDirectoryNode" />
-              <item name="zero" type="462c0819:PsiDirectoryNode" />
-              <item name="ftpFileUpload" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zero" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zero" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yg" type="462c0819:PsiDirectoryNode" />
-              <item name="zero" type="462c0819:PsiDirectoryNode" />
               <item name="httpFileUpload" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -443,6 +336,12 @@
               <item name="webRoot" type="462c0819:PsiDirectoryNode" />
               <item name="jbxx" type="462c0819:PsiDirectoryNode" />
               <item name="fileUpload" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zero" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zero" type="462c0819:PsiDirectoryNode" />
+              <item name="webRoot" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -731,11 +630,13 @@
       <workItem from="1563064461058" duration="15066000" />
       <workItem from="1564617946958" duration="8609000" />
       <workItem from="1564626888355" duration="536000" />
+      <workItem from="1564627735852" duration="343000" />
+      <workItem from="1564725436196" duration="10503000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="627202000" />
+    <option name="totallyTimeSpent" value="638048000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -748,35 +649,36 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.3293124" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.3293124" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3293124" />
-      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50123155" side_tool="true" weight="0.30639324" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50123155" side_tool="true" weight="0.34057972" />
       <window_info anchor="bottom" id="Application Servers" order="11" weight="0.3293124" />
       <window_info anchor="right" id="Maven Projects" order="9" weight="0.3294335" />
       <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49876848" weight="0.3075995" />
       <window_info anchor="bottom" id="Spring" order="13" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.32850242" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.32810616" />
       <window_info id="Designer" order="0" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49905837" visible="true" weight="0.24876848" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49905837" visible="true" weight="0.2567734" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="right" id="Database" order="4" weight="0.3294335" />
       <window_info id="Structure" order="6" sideWeight="0.50094163" side_tool="true" weight="0.23830049" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.49938422" weight="0.34057972" />
+      <window_info active="true" anchor="bottom" id="Debug" order="7" sideWeight="0.49876848" visible="true" weight="0.37077296" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info id="Image Layers" order="1" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.3293124" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
@@ -834,7 +736,7 @@
           <option name="timeStamp" value="150" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="617" />
+      <option name="time" value="628" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
@@ -868,130 +770,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/yg/zero/fileUpload/FileUploadOrDown/FileUtility.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/webRoot/WEB-INF/lib/struts2-core-2.3.32.jar!/org/apache/struts2/dispatcher/multipart/JakartaMultiPartRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1311">
-          <caret line="103" column="48" selection-start-line="103" selection-start-column="48" selection-end-line="103" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yg/zero/fileUpload/simulate/SocketServerListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yg/zero/fileUpload/simulate/FinalVariables.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yg/zero/fileUpload/FileCopy.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/yg/zero/fileUpload/FileTypeJudge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1121">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yg/zero/fileUpload/FileUploadOrDown/MD5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1045">
-          <caret line="113" column="32" lean-forward="true" selection-start-line="113" selection-start-column="32" selection-end-line="113" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webRoot/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="36" column="62" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yg/zero/fileUpload/service/FileUploadService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yg/zero/fileUpload/dao/FileUploadDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yg/zero/fileUpload/service/FileUploadServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yg/zero/fileUpload/dao/FileUploadDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yg/zero/fileUpload/FileUploadOrDown/blockUpload/UploadFileSplitterFetch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yg/zero/fileUpload/pojo/Files.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="12" column="51" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yg/zero/fileUpload/pojo/FileBlock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webRoot/jbxx/fileUpload/Sliceupload.jsp" />
-    <entry file="file://$PROJECT_DIR$/webRoot/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yg/zero/fileUpload/MyProgressListener.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/yg/zero/httpSliceFileUpload/FileSliceUpload.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/yg/zero/fileUpload/UploadProcessLister.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="51" column="48" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webRoot/webuploader-0.1.5/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webRoot/webuploader-0.1.5/webuploader.custom.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1012,31 +790,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yg/zero/ftpFileUpload/BigFilesUpload.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/ibatisConfig/fileUpload.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/strutsConfig/struts_fileupload.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="55" column="17" lean-forward="true" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yg/zero/fileUpload/MyMultiPartRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -1079,13 +836,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
           <caret line="618" column="25" selection-start-line="618" selection-start-column="25" selection-end-line="618" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yg/zero/fileUpload/FileChannelCopy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -1138,17 +888,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yg/zero/httpFileUpload/SmallFileUpload.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="114" column="33" selection-start-line="102" selection-start-column="23" selection-end-line="114" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yg/zero/fileUpload/simulate/FileUpLoadServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1056">
           <caret line="137" column="48" selection-start-line="137" selection-start-column="48" selection-end-line="137" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yg/zero/fileUpload/simulate/FileUpLoadClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webRoot/jbxx/bmgl/excel.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webRoot/jbxx/bmgl/error.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webRoot/jbxx/bmgl/bmgl.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webRoot/jbxx/fileUpload/success.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webRoot/jbxx/fileUpload/error.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webRoot/jbxx/fileUpload/download.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yg/zero/fileUpload/simulate/FinalVariables.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/apache-tomcat-7.0.79/lib/servlet-api.jar!/javax/servlet/GenericServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yg/zero/fileUpload/simulate/SocketServerListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yg/zero/fileUpload/FileUploadOrDown/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yg/zero/fileUpload/FileUploadOrDown/FileUtility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yg/zero/fileUpload/FileUploadOrDown/MD5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1161,38 +979,129 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yg/zero/fileUpload/FileUploadOrDown/blockUpload/UploadFileFetch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="172" column="5" selection-start-line="157" selection-start-column="4" selection-end-line="172" selection-end-column="5" />
+        <state relative-caret-position="323">
+          <caret line="167" column="13" selection-start-line="167" selection-start-column="13" selection-end-line="167" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yg/zero/fileUpload/FileUploadOrDown/blockUpload/UploadFileInfoBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
-          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yg/zero/fileUpload/simulate/FileUpLoadClient.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yg/zero/fileUpload/FileUploadOrDown/blockUpload/UploadFileSplitterFetch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-95">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="76">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yg/zero/fileUpload/FileUploadOrDown/blockDownLoad/DownFileAccess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yg/zero/fileUpload/FileUploadOrDown/blockDownLoad/DownFileFetch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yg/zero/fileUpload/FileChannelCopy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yg/zero/fileUpload/FileTypeJudge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1064">
+          <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/webRoot/WEB-INF/lib/commons-fileupload-1.3.1.jar!/org/apache/commons/fileupload/ProgressListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yg/zero/fileUpload/MyMultiPartRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yg/zero/ftpFileUpload/BigFilesUpload.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="52" column="59" lean-forward="true" selection-start-line="52" selection-start-column="59" selection-end-line="52" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webRoot/jbxx/fileUpload/minupload.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="79" column="8" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yg/zero/httpFileUpload/SmallFileUpload.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1064">
+          <caret line="93" column="50" lean-forward="true" selection-start-line="93" selection-start-column="50" selection-end-line="93" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webRoot/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webRoot/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yg/zero/fileUpload/UploadProcessLister.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/strutsConfig/struts_fileupload.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="59" column="49" lean-forward="true" selection-start-line="59" selection-start-column="49" selection-end-line="59" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webRoot/jbxx/fileUpload/bigfileUpload.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="227" column="7" selection-start-line="227" selection-start-column="7" selection-end-line="227" selection-end-column="7" />
+        <state relative-caret-position="312">
+          <caret line="227" lean-forward="true" selection-start-line="227" selection-end-line="227" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yg/zero/fileUpload/action/FileUploadAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="82" column="5" lean-forward="true" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+        <state relative-caret-position="248">
+          <caret line="177" column="13" lean-forward="true" selection-start-line="175" selection-start-column="12" selection-end-line="177" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#upload#0;class#FileUploadAction#0" />
           </folding>
         </state>
       </provider>
