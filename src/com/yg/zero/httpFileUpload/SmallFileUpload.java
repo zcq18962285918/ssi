@@ -122,17 +122,9 @@ public class SmallFileUpload {
     }
 
     /**
-     * 删除临时文件
+     * 删除临时文件 找不到是哪个临时文件，文件夹可能有别的用户使用不能直接删除，删除现如今想到两个办法，通过时间，定时清理
      */
     public static void deleteTemp(File tempDirectory, HttpServletRequest request) {
 
-        File[] list = tempDirectory.listFiles();
-        if (list != null) {
-            for (File file : list)
-                if (!file.delete())
-                    System.out.println("删除临时文件失败");
-        }
-        if (!tempDirectory.delete())
-            System.out.println("删除临时文件夹失败");
     }
 }

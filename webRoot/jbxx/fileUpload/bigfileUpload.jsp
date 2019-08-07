@@ -68,7 +68,8 @@
             (new WebUploader.Uploader()).md5File(file, 0, 1024 * 1024 * 10)
                 .progress(function (percentage) {
                     $('#' + file.id).find("p.state").text("正在读取文件信息...");
-                    getProgressBar(file, percentage);
+                    //getProgressBar(file, percentage);
+                    console.info(percentage);
                 })
                 .then(function (val) {
                     fileMd5 = val;
@@ -188,7 +189,7 @@
             '<h4 class="info">' + file.name + ' <button type="button" fileId="' + file.id + '" class="btn btn-danger btn-delete">删除文件</button></h4>' +
             '<h4 class="fileSize">' + file.size + " btyes" + '</h4>' +
             '<p class="state">等待上传...</p>' +
-            '<p class="progress progress-bar">上传进度...</p>' +
+            '<p>上传进度...</p>' +
             '</div>');
 
         //每次添加文件都给btn-delete绑定删除方法
@@ -276,6 +277,7 @@
 
     /*进度条*/
     function getProgressBar(file, percentage) {
+        console.info(percentage);
         var $id = $("#" + file.id);
         var $percent = $id.find('.progress .progress-bar');
         // 避免重复创建
@@ -286,7 +288,7 @@
                 '</div>').appendTo($id).find('.progress-bar');
         }
         //更新状态信息和百分比
-        $id.find('p.state').text('上传中');
+        $id.find('p.state').text('上传中...');
         $percent.css('width', percentage * 100 + '%');
     }
 
