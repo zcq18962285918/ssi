@@ -7,14 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e95b2f70-916e-4b3a-bf8b-c725b3e74c36" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/strutsConfig/struts_fileupload.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config/strutsConfig/struts_fileupload.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yg/zero/fileUpload/MyMultiPartRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yg/zero/fileUpload/MyMultiPartRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/zero/WEB-INF/upload/a8b836da224445acb384f637420558ea/mysql查询.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/zero/jbxx/fileUpload/bigfileUpload.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/zero/jbxx/fileUpload/bigfileUpload.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/yg/zero/fileUpload/action/FileUploadAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yg/zero/fileUpload/action/FileUploadAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yg/zero/ftpFileUpload/BigFilesUpload.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webRoot/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webRoot/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webRoot/jbxx/bmgl/bmgl.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webRoot/jbxx/bmgl/bmgl.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webRoot/jbxx/bmgl/excel.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webRoot/jbxx/bmgl/excel.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yg/zero/httpFileUpload/SmallFileUpload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yg/zero/httpFileUpload/SmallFileUpload.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webRoot/jbxx/fileUpload/bigfileUpload.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webRoot/jbxx/fileUpload/bigfileUpload.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -46,12 +44,12 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="bigfileUpload.jsp" pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="bigfileUpload.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webRoot/jbxx/fileUpload/bigfileUpload.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="227" lean-forward="true" selection-start-line="227" selection-end-line="227" />
+            <state relative-caret-position="475">
+              <caret line="126" column="28" lean-forward="true" selection-start-line="126" selection-start-column="28" selection-end-line="126" selection-end-column="28" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -59,24 +57,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileUploadAction.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FileUploadAction.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/yg/zero/fileUpload/action/FileUploadAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="177" column="13" lean-forward="true" selection-start-line="175" selection-start-column="12" selection-end-line="177" selection-end-column="13" />
+            <state relative-caret-position="190">
+              <caret line="140" column="31" selection-start-line="140" selection-start-column="31" selection-end-line="140" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#upload#0;class#FileUploadAction#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UploadProcessLister.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yg/zero/fileUpload/UploadProcessLister.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -185,14 +174,14 @@
         <option value="$PROJECT_DIR$/webRoot/index.jsp" />
         <option value="$PROJECT_DIR$/src/com/yg/zero/ftpFileUpload/LargeFilesUpload.java" />
         <option value="$PROJECT_DIR$/src/com/yg/zero/ftpFileUpload/BigFilesUpload.java" />
-        <option value="$PROJECT_DIR$/src/com/yg/zero/httpFileUpload/SmallFileUpload.java" />
         <option value="$PROJECT_DIR$/webRoot/jbxx/bmgl/excel.jsp" />
         <option value="$PROJECT_DIR$/webRoot/jbxx/bmgl/bmgl.jsp" />
         <option value="$PROJECT_DIR$/src/com/yg/zero/fileUpload/MyMultiPartRequest.java" />
         <option value="$PROJECT_DIR$/webRoot/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/webRoot/jbxx/fileUpload/bigfileUpload.jsp" />
         <option value="$PROJECT_DIR$/config/strutsConfig/struts_fileupload.xml" />
+        <option value="$PROJECT_DIR$/src/com/yg/zero/httpFileUpload/SmallFileUpload.java" />
         <option value="$PROJECT_DIR$/src/com/yg/zero/fileUpload/action/FileUploadAction.java" />
+        <option value="$PROJECT_DIR$/webRoot/jbxx/fileUpload/bigfileUpload.jsp" />
       </list>
     </option>
   </component>
@@ -239,8 +228,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -342,6 +331,36 @@
               <item name="zero" type="462c0819:PsiDirectoryNode" />
               <item name="webRoot" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zero" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="zero" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="zero" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zero" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zero" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -631,12 +650,15 @@
       <workItem from="1564617946958" duration="8609000" />
       <workItem from="1564626888355" duration="536000" />
       <workItem from="1564627735852" duration="343000" />
-      <workItem from="1564725436196" duration="10503000" />
+      <workItem from="1564725436196" duration="11036000" />
+      <workItem from="1565075254063" duration="6029000" />
+      <workItem from="1565141523092" duration="579000" />
+      <workItem from="1565142445395" duration="2430000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="638048000" />
+    <option name="totallyTimeSpent" value="647619000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -656,23 +678,23 @@
       <window_info anchor="bottom" id="Messages" order="14" weight="0.3293124" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3293124" />
-      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50123155" side_tool="true" weight="0.34057972" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50184727" side_tool="true" weight="0.37077296" />
       <window_info anchor="bottom" id="Application Servers" order="11" weight="0.3293124" />
       <window_info anchor="right" id="Maven Projects" order="9" weight="0.3294335" />
       <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49876848" weight="0.3075995" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.4981527" weight="0.29227054" />
       <window_info anchor="bottom" id="Spring" order="13" />
-      <window_info anchor="bottom" id="Terminal" order="3" weight="0.32810616" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.3268999" />
       <window_info id="Designer" order="0" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49905837" visible="true" weight="0.2567734" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49905837" visible="true" weight="0.26970443" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="right" id="Database" order="4" weight="0.3294335" />
       <window_info id="Structure" order="6" sideWeight="0.50094163" side_tool="true" weight="0.23830049" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Debug" order="7" sideWeight="0.49876848" visible="true" weight="0.37077296" />
+      <window_info active="true" anchor="bottom" id="Debug" order="7" sideWeight="0.4981527" visible="true" weight="0.15458937" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -736,7 +758,7 @@
           <option name="timeStamp" value="150" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="628" />
+      <option name="time" value="642" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
@@ -770,9 +792,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webRoot/webuploader-0.1.5/webuploader.custom.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/webRoot/webuploader-0.1.5/webuploader.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1040,24 +1059,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yg/zero/ftpFileUpload/BigFilesUpload.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="52" column="59" lean-forward="true" selection-start-line="52" selection-start-column="59" selection-end-line="52" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yg/zero/ftpFileUpload/BigFilesUpload.java" />
     <entry file="file://$PROJECT_DIR$/webRoot/jbxx/fileUpload/minupload.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="79" column="8" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yg/zero/httpFileUpload/SmallFileUpload.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1064">
-          <caret line="93" column="50" lean-forward="true" selection-start-line="93" selection-start-column="50" selection-end-line="93" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -1071,13 +1077,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yg/zero/fileUpload/UploadProcessLister.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/strutsConfig/struts_fileupload.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
@@ -1085,23 +1084,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webRoot/jbxx/fileUpload/bigfileUpload.jsp">
+    <entry file="file://$PROJECT_DIR$/src/com/yg/zero/fileUpload/UploadProcessLister.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="227" lean-forward="true" selection-start-line="227" selection-end-line="227" />
+        <state relative-caret-position="19">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Throwable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="632" column="16" selection-start-line="632" selection-start-column="16" selection-end-line="632" selection-end-column="16" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#26222#26223#0" expanded="true" />
+            <element signature="e#26265#26266#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yg/zero/httpFileUpload/SmallFileUpload.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="100" column="44" lean-forward="true" selection-start-line="100" selection-start-column="44" selection-end-line="100" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yg/zero/fileUpload/action/FileUploadAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="177" column="13" lean-forward="true" selection-start-line="175" selection-start-column="12" selection-end-line="177" selection-end-column="13" />
+        <state relative-caret-position="190">
+          <caret line="140" column="31" selection-start-line="140" selection-start-column="31" selection-end-line="140" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#upload#0;class#FileUploadAction#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webRoot/jbxx/fileUpload/bigfileUpload.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="126" column="28" lean-forward="true" selection-start-line="126" selection-start-column="28" selection-end-line="126" selection-end-column="28" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -182,7 +182,7 @@ public class FileUploadAction extends ActionSupport {
         //分片文件排序后合并
         File chunksFileDirectory = new File(chunksFilePath);
         File[] files = chunksFileDirectory.listFiles();
-        List<File> fileList;
+        List<File> fileList = null;
         FileChannel outChannel = null;
         FileChannel inChannel = null;
         if (files != null) {
@@ -198,13 +198,21 @@ public class FileUploadAction extends ActionSupport {
             } catch (IOException e) {
                 e.printStackTrace();
             }
-
+            FileInputStream fileInputStream = null;
             try {
                 outChannel = new FileOutputStream(mergeFile).getChannel();
                 for (File file : fileList) {
-                    inChannel = new FileInputStream(file).getChannel();
+                    fileInputStream = new FileInputStream(file);
+                    inChannel = fileInputStream.getChannel();
                     inChannel.transferTo(0, inChannel.size(), outChannel);
                     //file.delete();
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            try {
+                if (fileInputStream != null) {
+                    outChannel.close();
                 }
             } catch (IOException e) {
                 e.printStackTrace();
@@ -225,8 +233,11 @@ public class FileUploadAction extends ActionSupport {
             e.printStackTrace();
         }
 
-        //检查文件是否合并成功
-
+        //检查文件是否合并成功并删除分片文件(程序完成才能删除，删除文件在return之后)
+        if (mergeFile.length() != size){
+            result.put("error", "文件上传合并失败");
+            return "error";
+        }
 
         return "success";
     }

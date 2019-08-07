@@ -28,7 +28,7 @@ public class SmallFileUpload {
         //创建DiskFileItemFactory工厂
         DiskFileItemFactory diskFileItemFactory = new DiskFileItemFactory();
         //设置工厂的缓冲区的大小，当上传的文件大小超过缓冲区的大小时，就会生成一个临时文件存放到指定的临时目录当中。
-        diskFileItemFactory.setSizeThreshold(1024 * 100);
+        diskFileItemFactory.setSizeThreshold(1024 * 1024 * 10);
         diskFileItemFactory.setRepository(tempDirectory);
 
         //创建一个文件上传解析器

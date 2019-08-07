@@ -57,6 +57,7 @@
     }, {
         //时间点1：文件进行上传之前调用此函数
         beforeSendFile: function (file) {
+            console.info(file);
             var owner = this.owner;
             fileName = file.name; //为自定义参数文件名赋值
             fileSize = file.size;
@@ -88,17 +89,14 @@
 
                             if (response.isWhole){
                                 $('#' + file.id).find("p.state").text("文件秒传了");
-                                alert("文件已存在，无需上传！");
                                 owner.skipFile(file);
                                 count++;
+                            }else {
+                                deferred.resolve();
                             }
-
-                            deferred.resolve();
                         }
                     });
-
                 });
-
             return deferred.promise();
         },
 
@@ -123,11 +121,7 @@
                 async: false,
                 dataType: 'json',
                 success: function (response) {
-                    if (response.ifAll){
-                        //文件存在
-                        deferred.reject();
-                    }
-                    else if (response.ifExist) {
+                    if (response.ifExist) {
                         //分块存在，跳过
                         deferred.reject();
                     } else {
