@@ -31,8 +31,11 @@ public class DownFileFetch extends Thread {
 
         // 获取MD5
         try {
-            String md5 = MD5.getURLMD5String(siteInfoBean.getsSiteURL());
-            siteInfoBean.setMd5(md5);
+            if (siteInfoBean.isFileflag()) {
+                String md5 = MD5.getURLMD5String(siteInfoBean.getsSiteURL());
+                siteInfoBean.setMd5(md5);
+            }
+            else siteInfoBean.setMd5(MD5.getFileMD5String(siteInfoBean.getDownfile()));
         } catch (IOException e) {
             e.printStackTrace();
         }

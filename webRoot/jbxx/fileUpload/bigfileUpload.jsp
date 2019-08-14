@@ -37,10 +37,28 @@
                  style="float: left; margin-right: 10px" status="suspend">暂停上传
             </div>
         </div>
+        <div><button id="download" onclick="download()">下载</button></div>
     </div>
 </div>
 
 <script type="text/javascript">
+
+    var name = 'A700 1709 007 颐和公寓装饰3#（装饰）,永联建筑.doc';
+
+    function download() {
+        $.ajax({
+            url: "download.action",
+            type: 'post',
+            async: true,
+            data: {
+                fileName: name
+            },
+            success: function (respone) {
+                alert("下载完成")
+            }
+        });
+    }
+
     var fileMd5;  //文件唯一标识
     var uploader; //全局对象uploader
 
@@ -88,11 +106,11 @@
                         async: false,
                         success: function (response) {
 
-                            if (response.isWhole){
+                            if (response.isWhole) {
                                 $('#' + file.id).find("p.state").text("文件秒传了");
                                 owner.skipFile(file);
                                 count++;
-                            }else {
+                            } else {
                                 deferred.resolve();
                             }
                         }
@@ -152,9 +170,13 @@
                 cache: false,
                 async: false,
                 success: function (response) {
-                    count++;
-                    if (count <= filesArr.length - 1) {
-                        uploader.upload(filesArr[count].id);
+                    if (response.error) {
+                        alert("合并文件错误！")
+                    } else {
+                        count++;
+                        if (count <= filesArr.length - 1) {
+                            uploader.upload(filesArr[count].id);
+                        }
                     }
                 }
             });
@@ -189,7 +211,7 @@
             '<h4 class="info">' + file.name + ' <button type="button" fileId="' + file.id + '" class="btn btn-danger btn-delete">删除文件</button></h4>' +
             '<h4 class="fileSize">' + file.size + " btyes" + '</h4>' +
             '<p class="state">等待上传...</p>' +
-            '<p>上传进度...</p>' +
+            '<p class="pro">上传进度...</p>' +
             '</div>');
 
         //每次添加文件都给btn-delete绑定删除方法
@@ -222,23 +244,26 @@
     });
 
     uploader.on('uploadSuccess', function (file) {
-        $("#" + file.id).find('p.state').text('已上传');
-        $('#' + file.id).find(".progress").find(".progress-bar").attr("class", "progress-bar progress-bar-success");
-        $('#' + file.id).find(".info").find('.btn').fadeOut('slow');//上传完后删除"删除"按钮
+        var $id = $("#" + file.id);
+        $id.find('p.state').text('已上传');
+        $id.find('p.pro').text('');
+        $id.find(".progress").find(".progress-bar").attr("class", "progress-bar progress-bar-success");
+        $id.find(".info").find('.btn').fadeOut('slow');//上传完后删除"删除"按钮
         $('#StopBtn').fadeOut('slow');
     });
 
     uploader.on('uploadError', function (file) {
-        $('#' + file.id).find('p.state').text('上传出错');
+        var $id = $('#' + file.id);
+        $id.find('p.state').text('上传出错');
         //上传出错后进度条变红
-        $('#' + file.id).find(".progress").find(".progress-bar").attr("class", "progress-bar progress-bar-danger");
+        $id.find(".progress").find(".progress-bar").attr("class", "progress-bar progress-bar-danger");
         //添加重试按钮
         //为了防止重复添加重试按钮，做一个判断
         //var retrybutton = $('#' + file.id).find(".btn-retry");
         //$('#' + file.id)
-        if ($('#' + file.id).find(".btn-retry").length < 1) {
+        if ($id.find(".btn-retry").length < 1) {
             var btn = $('<button type="button" fileid="' + file.id + '" class="btn btn-success btn-retry"><span class="glyphicon glyphicon-refresh">重新上传</span></button>');
-            $('#' + file.id).find(".info").append(btn);//.find(".btn-danger")
+            $id.find(".info").append(btn);//.find(".btn-danger")
         }
         $(".btn-retry").click(function () {
             console.log($(this).attr("fileId"));//拿到文件id

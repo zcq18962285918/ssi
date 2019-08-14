@@ -9,24 +9,24 @@
     <meta http-equiv="Content-Style-Type" content="text/css"/>
 
     <script type="text/javascript" src="../../jquery-3.4.1.min.js"></script>
+
+    <script type="text/javascript" src="../../ueditor/ueditor.config.js"></script>
+    <script type="text/javascript" src="../../ueditor/ueditor.all.min.js"></script>
+    <script type="text/javascript" src="../../ueditor/lang/zh-cn/zh-cn.js"></script>
+
     <title>upload</title>
 
 </head>
 <body>
 
-<div class="jquery-fileupload">
-    <div class="">
-        <div>
-            <img id="image" src="">
-        </div>
-        <div id="progress">
-            <div class="bar" style="width: 0%;"></div>
-        </div>
-        <input id="download" type="file" name="download" style="display: none"/>
-        <button id="chooseFile">+选择文件</button>
-        <button id="uploadFile">~开始下载</button>
-    </div>
-</div>
+<form action="">
+    <script type="text/plain" id="editor"></script>
+    <button type="submit">提交</button>
+</form>
+<script type="text/javascript">
+    //建议使用工厂方法getEditor创建和引用编辑器实例，如果在某个闭包下引用该编辑器，直接调用UE.getEditor('editor')就能拿到相关的实例
+    var ue = UE.getEditor('editor');
+</script>
 
 </body>
 </html>
